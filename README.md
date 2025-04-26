@@ -1,3 +1,10 @@
+修改部分:
+- docker compose
+- uv 管理依赖
+- onnxruntime-gpu
+
+---
+
 # MT Photos非官方人脸识别API
 
 - 仅供非商业测试

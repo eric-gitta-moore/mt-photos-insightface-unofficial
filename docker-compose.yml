@@ -1,0 +1,11 @@
+
+services:
+  insightface:
+    build: .
+    ports:
+      - "8066:8066"
+    environment:
+      - API_AUTH_KEY=92ef7c49-1f7a-4a03-b178-4891489a96b0
+    restart: unless-stopped
+    volumes:
+      - ./models:/root/.insightface/models
