@@ -1,2 +1,15 @@
 sources.list
 models
+.venv
+__pycache__
+.env
+*.log
+docker-build.sh
+docker-compose.yml
+.git
+.github
+.gitignore
+.env.example
+.dockerignore
+Dockerfile
+requirements.txt

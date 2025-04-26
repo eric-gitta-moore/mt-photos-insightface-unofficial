@@ -3,6 +3,7 @@
 - uv 管理依赖
 - onnxruntime-gpu
 
+> 网络一定要同，建议开 tun 模式
 ---
 
 # MT Photos非官方人脸识别API
