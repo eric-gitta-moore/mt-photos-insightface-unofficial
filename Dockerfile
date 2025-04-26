@@ -1,4 +1,6 @@
 FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-runtime
+USER root
+
 COPY --from=ghcr.io/astral-sh/uv:0.6 /uv /uvx /bin/
 
 WORKDIR /app
