@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-runtime
+FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-devel
 USER root
 
 COPY --from=ghcr.io/astral-sh/uv:0.6 /uv /uvx /bin/
